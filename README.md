@@ -9,6 +9,8 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 ##### Catalog
 
+[repo](https://github.com/oscal-compass/e2e-demo-cac-catalog-cis)
+
 - Shown is CIS Catalog v8, which is already available in OSCAL format.
 - This repo is used as the "source" for dependent repos needing this catalog.
 - In some cases, the OSCAL format of the catalog is not available. In such circumstances, the Catalog repo can be used to do the transformation from the original source format into OSCAL using compliance-trestle tools.
