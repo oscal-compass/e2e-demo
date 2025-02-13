@@ -17,10 +17,14 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 ##### Profile
 
+[repo](https://github.com/oscal-compass/e2e-demo-cac-profile-cis)
+
 - Shown is selected controls from CIS catalog.
 - Use markdown editing to add guidance and assemble revised OSCAL profile.
 
 ##### Component Definition
+
+[repo](https://github.com/oscal-compass/e2e-demo-cac-cdg-cis-rhel9)
 
 - Comprises 2 parts: 
     - RHEL9 software (from CIS Benchmarks) and 
