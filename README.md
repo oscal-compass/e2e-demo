@@ -24,7 +24,7 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 ##### Component Definition
 
-[repo](https://github.com/oscal-compass/e2e-demo-cac-cdg-cis-rhel9)
+[repo](https://github.com/oscal-compass/e2e-demo-cac-cd-cis-rhel9)
 
 - Comprises 2 parts: 
     - RHEL9 software (from CIS Benchmarks) and 
