@@ -41,3 +41,12 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 ##### Mapping
 
 - Shown is *future* mapping model, for re-use of results from CISb to get posture for NIST 800-53.
+
+-----
+-----
+
+##### CTP
+
+Integration with CTP.
+
+<img src="images/e2e-demo.ctp.drawio.png" width="100%" />
