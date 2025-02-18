@@ -35,7 +35,7 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 [repo](https://github.com/oscal-compass/e2e-demo-cac-ssp-cis)
 
-- Shown is selected SSP compriding RHEL9 component definition.
+- Shown is selected SSP comprising RHEL9 component definition.
 - Use markdown editing to add guidance and assemble revised OSCAL SSP.
 
 ##### Mapping
