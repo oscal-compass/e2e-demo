@@ -31,6 +31,13 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
     - OSCO validation (from Compliance as Code)
 - trestle transformer is used to transform RHEL9 CIS Benchmark to OSCAL Component Definition
 
+##### System Security Plan
+
+[repo](https://github.com/oscal-compass/e2e-demo-cac-ssp-cis)
+
+- Shown is selected SSP compriding RHEL9 component definition.
+- Use markdown editing to add guidance and assemble revised OSCAL SSP.
+
 ##### Mapping
 
 - Shown is *future* mapping model, for re-use of results from CISb to get posture for NIST 800-53.
