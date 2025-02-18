@@ -49,4 +49,6 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 Integration with CTP.
 
+Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance-to-policy-go)
+
 <img src="images/e2e-demo.ctp.drawio.png" width="100%" />
