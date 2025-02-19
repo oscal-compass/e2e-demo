@@ -51,4 +51,4 @@ Integration with C2P.
 
 Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance-to-policy-go)
 
-<img src="images/e2e-demo.ctp.drawio.png" width="100%" />
+<img src="images/e2e-demo.c2p.drawio.png" width="100%" />
