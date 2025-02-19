@@ -45,9 +45,9 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 -----
 -----
 
-##### CTP
+##### C2P
 
-Integration with CTP.
+Integration with C2P.
 
 Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance-to-policy-go)
 
