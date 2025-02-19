@@ -42,6 +42,13 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 - Shown is *future* mapping model, for re-use of results from CISb to get posture for NIST 800-53.
 
+
+##### XCCDF Results for RHEL9
+
+[repo](https://github.com/oscal-compass/e2e-demo-pac-xccdf-rhel9)
+
+- Repo comprises XCCDF results for RHEL9 system.
+
 -----
 -----
 
