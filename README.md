@@ -49,6 +49,13 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 - Repo comprises XCCDF results for RHEL9 system.
 
+
+##### Compliance posture
+
+[repo](https://github.com/oscal-compass/e2e-demo-compliance-posture)
+
+- Repo comprises compliance posture for RHEL9 system.
+
 -----
 -----
 
