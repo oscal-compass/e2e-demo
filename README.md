@@ -1,5 +1,4 @@
 # End-to-end Demo - CNCF OSCAL Compass
-End-to-end Demo - CNCF OSCAL Compass
 
 #### Overview
 
@@ -9,52 +8,51 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 ##### Catalog
 
-[repo](https://github.com/oscal-compass/e2e-demo-cac-catalog-cis)
+[repo](https://github.com/oscal-compass/e2e-demo-catalog)
 
-- Shown is CIS Catalog v8, which is already available in OSCAL format.
+- Shown is NIST 800-538, which is already available in OSCAL format.
 - This repo is used as the "source" for dependent repos needing this catalog.
 - In some cases, the OSCAL format of the catalog is not available. In such circumstances, the Catalog repo can be used to do the transformation from the original source format into OSCAL using compliance-trestle tools.
 
 ##### Profile
 
-[repo](https://github.com/oscal-compass/e2e-demo-cac-profile-cis)
+[repo](https://github.com/oscal-compass/e2e-demo-profile)
 
-- Shown is selected controls from CIS catalog.
+- Shown is selected controls from NIST 800-538 catalog.
 - Use markdown editing to add guidance and assemble revised OSCAL profile.
 
 ##### Component Definition
 
-[repo](https://github.com/oscal-compass/e2e-demo-cac-cd-cis-rhel9)
+[repo](https://github.com/oscal-compass/e2e-demo-cd-ubuntu)
 
 - Comprises 2 parts: 
-    - RHEL9 software (from CIS Benchmarks) and 
-    - OSCO validation (from Compliance as Code)
-- trestle transformer is used to transform RHEL9 CIS Benchmark to OSCAL Component Definition
+    - Ubuntu software component definition
+    - OSCO validation component definition
 
 ##### System Security Plan
 
-[repo](https://github.com/oscal-compass/e2e-demo-cac-ssp-cis)
+[repo](https://github.com/oscal-compass/e2e-demo-ssp)
 
-- Shown is selected SSP comprising RHEL9 component definition.
+- Shown is selected SSP comprising Ubuntu component definition.
 - Use markdown editing to add guidance and assemble revised OSCAL SSP.
 
 ##### Mapping
 
-- Shown is *future* mapping model, for re-use of results from CISb to get posture for NIST 800-53.
+- Shown is *future* mapping model, for re-use of results from NIST 800-53 to get posture for other compliance program(s), such as HIPAA, GDPR, FedRAMP, SOC2...
 
 
-##### XCCDF Results for RHEL9
+##### XCCDF Results for UBUNTU
 
-[repo](https://github.com/oscal-compass/e2e-demo-pac-xccdf-rhel9)
+[repo](https://github.com/oscal-compass/e2e-demo-xccdf-ubuntu)
 
-- Repo comprises XCCDF results for RHEL9 system.
+- Repo comprises XCCDF results for Ubuntu system.
 
 
 ##### Compliance posture
 
 [repo](https://github.com/oscal-compass/e2e-demo-compliance-posture)
 
-- Repo comprises compliance posture for RHEL9 system.
+- Repo comprises compliance posture for Ubuntu system.
 
 -----
 -----
