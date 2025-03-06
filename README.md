@@ -10,9 +10,10 @@ This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agil
 
 [repo](https://github.com/oscal-compass/e2e-demo-catalog)
 
-- Shown is NIST 800-538, which is already available in OSCAL format.
-- This repo is used as the "source" for dependent repos needing this catalog.
-- In some cases, the OSCAL format of the catalog is not available. In such circumstances, the Catalog repo can be used to do the transformation from the original source format into OSCAL using compliance-trestle tools.
+- Shown is NIST 800-538, which is already available in [OSCAL format]()https://github.com/usnistgov/oscal-content/tree/main/nist.gov/SP800-53/rev5/json.
+- The present repo is used as the "source" for dependent repos needing this catalog.
+
+Note: In some cases, the OSCAL format of a catalog is not available. In such circumstances, the Catalog repo itself can be used to do the transformation from the original source format into OSCAL using compliance-trestle and agile-authoring tools.
 
 ##### Profile
 
