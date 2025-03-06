@@ -24,7 +24,7 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 
 ##### Component Definition
 
-[repo](https://github.com/oscal-compass/e2e-demo-cd-ubuntu)
+[repo](https://github.com/oscal-compass/e2e-demo-cd)
 
 - Comprises 2 parts: 
     - Ubuntu software component definition
