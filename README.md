@@ -67,3 +67,11 @@ Integration with C2P.
 Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance-to-policy-go)
 
 <img src="images/e2e-demo.c2p.drawio.png" width="100%" />
+
+##### Steps to run demo using C2P
+
+1. Download and install VirtualBox from - https://www.virtualbox.org/wiki/Downloads This is the Oracle hypervisor that will run the VM.
+2. Download and install Vagrant from - https://developer.hashicorp.com/vagrant/install Vagrant is a developers tool for automating the creation of lightweight, reproducible and portable virtual environments via command-line
+3. Download [Vagrantfile](resources/Vagrantfile)
+4. Execute “vagrant up”. This will download (first time only) and start the VM.
+
