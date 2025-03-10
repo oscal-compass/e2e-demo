@@ -68,7 +68,7 @@ Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance
 
 <img src="images/e2e-demo.c2p.drawio.png" width="100%" />
 
-##### Steps to run demo using C2P
+##### Steps to create Secure Server VM (subject of compliance posture inquiry)
 
 1. Download and install VirtualBox from - https://www.virtualbox.org/wiki/Downloads This is the Oracle hypervisor that will run the VM.
 2. Download and install Vagrant from - https://developer.hashicorp.com/vagrant/install Vagrant is a developers tool for automating the creation of lightweight, reproducible and portable virtual environments via command-line
