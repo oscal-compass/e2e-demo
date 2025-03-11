@@ -68,6 +68,25 @@ Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance
 
 <img src="images/e2e-demo.c2p.drawio.png" width="100%" />
 
+
+The above setup imagines that the Compliance Posture Repo has access to the subject.
+
+-----
+-----
+
+##### C2P (using VM subject)
+
+Integration with C2P.
+
+Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance-to-policy-go)
+
+<img src="images/e2e-demo.c2p-vm.drawio.png" width="100%" />
+
+
+
+The above setup imagines that the Compliance Posture is cloned onto a Manager, and the Manager has access to the subject (e.g., a local VM).
+
+
 ##### Steps to create Secure Server VM (subject of compliance posture inquiry)
 
 - Download and install VirtualBox from - https://www.virtualbox.org/wiki/Downloads This is the Oracle hypervisor that will run the VM.
