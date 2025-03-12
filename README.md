@@ -91,7 +91,7 @@ The above setup imagines that the Compliance Posture is cloned onto a Manager, a
 
 - Download and install VirtualBox from - https://www.virtualbox.org/wiki/Downloads This is the Oracle hypervisor that will run the VM.
 - Download and install Vagrant from - https://developer.hashicorp.com/vagrant/install Vagrant is a developers tool for automating the creation of lightweight, reproducible and portable virtual environments via command-line
-- Download [Vagrantfile](resources/Vagrantfile)
+- Download [Vagrantfile](https://github.com/oscal-compass/e2e-demo-compliance-posture/blob/develop/resources/vagrant/ubuntu-24.04/Vagrantfile)
 - Execute “vagrant up”. This will download (first time only) and start the VM.
 
 ##### Continued, steps to check oscap on Secure Server VM
