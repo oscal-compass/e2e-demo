@@ -87,20 +87,22 @@ Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance
 The above setup imagines that the Compliance Posture is cloned onto a Manager, and the Manager has access to the subject (e.g., a local VM).
 
 
-##### Steps to create Secure Server VM (subject of compliance posture inquiry)
+## Demo
 
-- Download and install VirtualBox from - https://www.virtualbox.org/wiki/Downloads This is the Oracle hypervisor that will run the VM.
-- Download and install Vagrant from - https://developer.hashicorp.com/vagrant/install Vagrant is a developers tool for automating the creation of lightweight, reproducible and portable virtual environments via command-line
-- Download [Vagrantfile](https://github.com/oscal-compass/e2e-demo-compliance-posture/blob/develop/resources/vagrant/ubuntu-24.04/Vagrantfile)
-- Execute “vagrant up”. This will download (first time only) and start the VM.
+This demo shows how to use OSCAL Compass to compute the compliance posture for a subject VM.
 
-##### Continued, steps to check oscap on Secure Server VM
+###### Prerequisites
 
-- Execute “vagrant ssh”.
-- `vagrant@vagrant:~$ sudo oscap xccdf eval --profile xccdf_org.ssgproject.content_profile_cis_level2_workstation --results /tmp/results.xml --report /tmp/report.html /usr/share/xml/scap/ssg/content/ssg-ubuntu2404-ds.xml`
+- Download and install VirtualBox from [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads). This is the Oracle hypervisor that will run the VM.
+- Download and install Vagrant from [https://developer.hashicorp.com/vagrant/install](https://developer.hashicorp.com/vagrant/install). Vagrant is a developers tool for automating the creation of lightweight, reproducible and portable virtual environments via command-line.
 
-##### Continued, steps to exit and shutdown VM
+###### Fetch the compliance-posture repo and launch
 
-- `vagrant@vagrant:~$ exit`
-- Execute “vagrant halt”.
+```
+> cd /tmp
+> git clone https://github.com/oscal-compass/e2e-demo-compliance-posture.git
+> cd e2e-demo-compliance-posture/
+> make
+```
+
 
