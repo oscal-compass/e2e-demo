@@ -4,7 +4,9 @@
 
 This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agile-authoring for (continuous) compliance standardization and automation.
 
-<img src="images/e2e-demo.drawio.png" width="100%" />
+<img src="images/e2e-demo.c2p-vm.drawio.png" width="100%" />
+
+Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance-to-policy-go)
 
 ##### Catalog
 
@@ -43,48 +45,20 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 
 - Shown is *future* mapping model, for re-use of results from NIST 800-53 to get posture for other compliance program(s), such as HIPAA, GDPR, FedRAMP, SOC2...
 
-
-##### XCCDF Results for UBUNTU
-
-[repo](https://github.com/oscal-compass/e2e-demo-xccdf-ubuntu)
-
-- Repo comprises XCCDF results for Ubuntu system.
-
-
 ##### Compliance posture
 
 [repo](https://github.com/oscal-compass/e2e-demo-compliance-posture)
 
 - Repo comprises compliance posture for Ubuntu system.
 
------
------
+##### XCCDF Results for UBUNTU (e.g. evidence locker)
 
-##### C2P
+[repo](https://github.com/oscal-compass/e2e-demo-xccdf-ubuntu)
 
-Integration with C2P.
-
-Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance-to-policy-go)
-
-<img src="images/e2e-demo.c2p.drawio.png" width="100%" />
-
-
-The above setup imagines that the Compliance Posture Repo has access to the subject.
+- Repo comprises XCCDF results for Ubuntu system.
 
 -----
 -----
-
-##### C2P (using VM subject)
-
-Integration with C2P.
-
-Reference: [compliance-to-policy-go](https://github.com/oscal-compass/compliance-to-policy-go)
-
-<img src="images/e2e-demo.c2p-vm.drawio.png" width="100%" />
-
-
-
-The above setup imagines that the Compliance Posture is cloned onto a Manager, and the Manager has access to the subject (e.g., a local VM).
 
 
 ## Demo
@@ -131,4 +105,28 @@ Run `make clean-up` when finished to shutdown the VM.
 <summary>enable extension screen shot</summary>
 <img src="images/chrome.extension.png" width="500">
 </details>
+<br>
+<br>
 
+-----
+-----
+
+##### Example configuration employing C2P (from Git repo)
+
+<details>
+<summary>Example 1</summary>
+<img src="images/e2e-demo.c2p.drawio.png" width="100%" />
+</details>
+<br>
+<br>
+
+-----
+-----
+
+##### Example configuration employing Git repo as a substitute for the VM
+
+
+<details>
+<summary>Example 2</summary>
+<img src="images/e2e-demo.drawio.png" width="100%" />
+</details>
