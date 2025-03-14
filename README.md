@@ -102,7 +102,21 @@ This demo shows how to use OSCAL Compass to compute the compliance posture for a
 > cd /tmp
 > git clone https://github.com/oscal-compass/e2e-demo-compliance-posture.git
 > cd e2e-demo-compliance-posture/
-> make
+> make demo
 ```
 
+The first time `make demo` is run, a Ubuntu VM is created and started. Then OSCAL Compass is used to:
+- push the oscap profile to the VM 
+- pull the oscap results from the VM
+- convert the oscap results into OSCAL Assessment Results
+- use the OSCAL Assessment Results calculate compliance posture
+
+Subsequent invocations of `make demo` will utilize the already running VM.
+
+
+```
+> make clean-up
+```
+
+Run `make clean-up` when finished to shutdown the VM.
 
