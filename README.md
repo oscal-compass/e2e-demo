@@ -99,8 +99,7 @@ Run `make clean-up` when finished to shutdown the VM.
 1. If the results don't pop up in a browser window, then manually open `file:///tmp/e2e-demo-compliance-posture/README.md` with your browser.
 
 2. If the results don't preview in your Chrome browser, consider installing [Markdown Viewer Extension](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk). You may have to enable the extension to access files.
-<br>
-<br>
+
 <details>
 <summary>enable extension screen shot</summary>
 <img src="images/chrome.extension.png" width="500">
