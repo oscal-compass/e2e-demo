@@ -63,7 +63,24 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 
 ## Demo
 
-This demo shows how to use OSCAL Compass to compute the compliance posture for a subject VM.
+This demo shows how OSCAL Compass can be used for compliance automation. The compliance posture for a subject VM is computed and displayed.
+
+In preparation, the prerequisite OSCAL documents were created. Starting in the `Compliance-As-Code` domain:
+
+- the NIST 800-53 `catalog` comprising all controls for that program is kept locally in a Git repo, managed by OSCAL Compass agile authoring
+- a selection of controls is specified in the `profile` Git repo, managed by OSCAL Compass agile authoring
+- a selection of `rules` and `checks` is specified in the `component definition` Git repo, managed by OSCAL Compass agile authoring
+    - the rules are specified in the software component definition
+    - the checks are specified in the validation component definition
+
+Moving to the `Policy-As-Code` domain, this comprises `the demo`:
+
+- a Ununtu VM is provisioned and started
+- OSCAL Compass C2P is employed to push a tailored oscap profile to the Ubuntu VM
+- OSCAL Compass C2P is employed to pull oscap xccdf results from the Ubuntu VM
+- OSCAL Compass trestle is employed to convert the oscap xccdf results into OSCAL Assessment Results
+- OSCAL Compass trestle is employed to produce compliance posture from OSCAL Component Definitions and Assessment Results
+- the compliance posture for the Ubuntu VM is displayed in the default browser
 
 ###### Prerequisites
 
@@ -81,9 +98,10 @@ This demo shows how to use OSCAL Compass to compute the compliance posture for a
 
 The first time `make demo` is run, a Ubuntu VM is created and started. Then OSCAL Compass is used to:
 - push the oscap profile to the VM 
-- pull the oscap results from the VM
-- convert the oscap results into OSCAL Assessment Results
-- use the OSCAL Assessment Results calculate compliance posture
+- pull the oscap xccdf results from the VM
+- convert the oscap xccdf results into OSCAL Assessment Results
+- use the OSCAL Assessment Results and Component Definitions calculate compliance posture
+- display the VM compliance posture in browser
 
 Subsequent invocations of `make demo` will utilize the already running VM.
 
