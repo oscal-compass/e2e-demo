@@ -105,8 +105,6 @@ Run `make clean-up` when finished to shutdown the VM.
 <summary>enable extension screen shot</summary>
 <img src="images/chrome.extension.png" width="500">
 </details>
-<br>
-<br>
 
 -----
 -----
@@ -117,8 +115,6 @@ Run `make clean-up` when finished to shutdown the VM.
 <summary>Example 1</summary>
 <img src="images/e2e-demo.c2p.drawio.png" width="100%" />
 </details>
-<br>
-<br>
 
 -----
 -----
