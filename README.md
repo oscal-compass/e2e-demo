@@ -70,14 +70,14 @@ In preparation, the prerequisite OSCAL documents were created. Starting in the `
 - the NIST 800-53 `catalog` comprising all controls for that program is kept locally in a Git repo, managed by OSCAL Compass agile authoring
 - a selection of controls is specified in the `profile` Git repo, managed by OSCAL Compass agile authoring
 - a selection of `rules` and `checks` is specified in the `component definition` Git repo, managed by OSCAL Compass agile authoring
-    - the rules are specified in the software component definition
-    - the checks are specified in the validation component definition
+    - the rules are specified in the `software` component definition
+    - the checks are specified in the `validation` component definition
 
 Moving to the `Policy-As-Code` domain, this comprises `the demo`:
 
-- a Ununtu VM is provisioned and started
+- a Ubuntu VM is provisioned and started
 - OSCAL Compass C2P is employed to push a tailored oscap profile to the Ubuntu VM
-    - the oscap profile is constructed from the `validation` OSCAL Component Definition
+    - the oscap profile is constructed from the validation OSCAL Component Definition
 - OSCAL Compass C2P is employed to pull oscap xccdf results from the Ubuntu VM
 - OSCAL Compass trestle is employed to convert the oscap xccdf results into OSCAL Assessment Results
 - OSCAL Compass trestle is employed to produce compliance posture from OSCAL Component Definitions and Assessment Results
