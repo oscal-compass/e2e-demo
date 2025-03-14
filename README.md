@@ -77,6 +77,7 @@ Moving to the `Policy-As-Code` domain, this comprises `the demo`:
 
 - a Ununtu VM is provisioned and started
 - OSCAL Compass C2P is employed to push a tailored oscap profile to the Ubuntu VM
+    - the oscap profile is constructed from the `validation` OSCAL Component Definition
 - OSCAL Compass C2P is employed to pull oscap xccdf results from the Ubuntu VM
 - OSCAL Compass trestle is employed to convert the oscap xccdf results into OSCAL Assessment Results
 - OSCAL Compass trestle is employed to produce compliance posture from OSCAL Component Definitions and Assessment Results
