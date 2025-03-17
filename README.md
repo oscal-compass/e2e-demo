@@ -60,10 +60,20 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 -----
 -----
 
+## Demos CNCF OSCAL Compass
 
-## Demo
+### Demo 1 - CNCF OSCAL Compass: agile authoring
 
-This demo shows how OSCAL Compass can be used for compliance automation. The compliance posture for a subject VM is computed and displayed.
+TBD - demonstrate addition of guidance to catalog repo
+- show & update markdown
+- create PR
+- approve PR
+- create release
+- show downstream PR
+
+### Demo 2 - CNCF OSCAL Compass: automated compliance posture
+
+This demo shows how OSCAL Compass can be used for compliance posture automation. The compliance posture for a subject VM is computed and displayed.
 
 In preparation, the prerequisite OSCAL documents were created. Starting in the `Compliance-As-Code` domain:
 
