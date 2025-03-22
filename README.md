@@ -72,9 +72,8 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 | -------- | ------- |
 | Catalog | Externally published list of control specifications |
 | Profile | Add, modify, delete controls from catalog. 2 or more catalogs can also be combined in a profile |
-| Component definition | 
-
-
+| Component definition | describes how hardware, software, services, policies, processes, or procedures can support or provide implementations of specific controls, acting as a modular and reusable model for capturing control information |
+| SSP | represents a description of the control implementation of an information system |
 
 
 TBD - demonstrate addition of guidance to catalog repo
