@@ -62,7 +62,20 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 
 ## Demos CNCF OSCAL Compass
 
-### Demo 1 - CNCF OSCAL Compass: agile authoring
+### Demo 1 - CNCF OSCAL Compass: Agile Authoring
+
+#### Why agile authoring?
+<img width="1127" alt="image" src="https://github.com/user-attachments/assets/cb91de1f-255d-442f-8e4a-e4fd2aeae815" />
+
+#### Terminology
+| Artifact | What it means? |
+| -------- | ------- |
+| Catalog | Externally published list of control specifications |
+| Profile | Add, modify, delete controls from catalog. 2 or more catalogs can also be combined in a profile |
+| Component definition | 
+
+
+
 
 TBD - demonstrate addition of guidance to catalog repo
 - show & update markdown
