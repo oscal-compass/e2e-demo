@@ -80,6 +80,15 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 
 #### Block diagram on how agile authoring
 
+#### How do I leverage the demo?
+
+The agile authoring demo leverages native git features like git repositories, pull requests, branches and github actions to build a git based pipeline to transform and build a domino chain for compliance artifacts.
+There are couple of ways you can leverage agile authoring:
+1. Clone the repositories in oscal-compass organization
+2. The repositories can be added to your organization
+3. You will need to add a secret to the github workflow which has write access to all the repositories. The secret variable name should be `PUSH_TOKEN`
+4. You can then modify/add/delete compliance artifacts and see the cascade updates accroding to the agile authoring workflow
+
 
 TBD - demonstrate addition of guidance to catalog repo
 - show & update markdown
