@@ -88,14 +88,7 @@ There are couple of ways you can leverage agile authoring:
 2. The repositories can be added to your organization
 3. You will need to add a secret to the github workflow which has write access to all the repositories. The secret variable name should be `PUSH_TOKEN`
 4. You can then modify/add/delete compliance artifacts and see the cascade updates accroding to the agile authoring workflow
-
-
-TBD - demonstrate addition of guidance to catalog repo
-- show & update markdown
-- create PR
-- approve PR
-- create release
-- show downstream PR
+5. The cascade will be in form of git branches and PRs according to the agile authoring workflows
 
 ### Demo 2 - CNCF OSCAL Compass: automated compliance posture
 
