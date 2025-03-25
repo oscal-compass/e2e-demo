@@ -75,6 +75,11 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 | Component definition | describes how hardware, software, services, policies, processes, or procedures can support or provide implementations of specific controls, acting as a modular and reusable model for capturing control information |
 | SSP | represents a description of the control implementation of an information system |
 
+#### Agile Auhtoring Key Points
+<img width="1127" alt="image" src="https://github.com/user-attachments/assets/dbbd0902-60d2-4916-8f64-e617858fc5ea" />
+
+#### Block diagram on how agile authoring
+
 
 TBD - demonstrate addition of guidance to catalog repo
 - show & update markdown
