@@ -2,7 +2,7 @@
 
 #### Overview
 
-This end-to-end demo shows use of CNCF OSCAL Compass compliance-trestle and agile-authoring for (continuous) compliance standardization and automation.
+This end-to-end demo shows use of [CNCF OSCAL Compass](https://github.com/oscal-compass/community?tab=readme-ov-file#welcome-to-the-oscal-compass-community-repository) compliance-trestle and agile-authoring for (continuous) compliance standardization and automation.
 
 <img src="images/e2e-demo.c2p-vm.drawio.png" width="100%" />
 
@@ -56,6 +56,17 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 [repo](https://github.com/oscal-compass/e2e-demo-xccdf-ubuntu)
 
 - Repo comprises XCCDF results for Ubuntu system.
+
+-----
+-----
+
+## Videos CNCF OSCAL Compass
+
+<table>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=wC9QEUoCcuol">CNCF OSCAL Compass Introduction</a><br>(44 mins)
+<td><a href="https://www.youtube.com/watch?v=wC9QEUoCcuol"><img src="images/intro.jpeg"></a>
+</table>
 
 -----
 -----
