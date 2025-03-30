@@ -86,7 +86,7 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 | Component definition | describes how hardware, software, services, policies, processes, or procedures can support or provide implementations of specific controls, acting as a modular and reusable model for capturing control information |
 | SSP | represents a description of the control implementation of an information system |
 
-#### Agile Auhtoring Key Points
+#### Agile Authoring Key Points
 <img width="1127" alt="image" src="https://github.com/user-attachments/assets/dbbd0902-60d2-4916-8f64-e617858fc5ea" />
 
 #### Block diagram on how agile authoring
@@ -98,7 +98,7 @@ There are couple of ways you can leverage agile authoring:
 1. Clone the repositories in oscal-compass organization
 2. The repositories can be added to your organization
 3. You will need to add a secret to the github workflow which has write access to all the repositories. The secret variable name should be `PUSH_TOKEN`
-4. You can then modify/add/delete compliance artifacts and see the cascade updates accroding to the agile authoring workflow
+4. You can then modify/add/delete compliance artifacts and see the cascade updates according to the agile authoring workflow
 5. The cascade will be in form of git branches and PRs according to the agile authoring workflows
 
 ### Demo 2 - CNCF OSCAL Compass: automated compliance posture
