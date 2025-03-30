@@ -89,7 +89,6 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 #### Agile Authoring Key Points
 <img width="1127" alt="image" src="https://github.com/user-attachments/assets/dbbd0902-60d2-4916-8f64-e617858fc5ea" />
 
-#### Block diagram on how agile authoring
 
 #### How do I leverage the demo?
 
