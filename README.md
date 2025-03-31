@@ -62,13 +62,13 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 
 ## Videos CNCF OSCAL Compass
 
-<table>
+<table border="0">
 <tr>
 <td><a href="https://www.youtube.com/watch?v=wC9QEUoCcuol">CNCF OSCAL Compass Introduction</a><br>(44 mins)
-<td><a href="https://www.youtube.com/watch?v=wC9QEUoCcuol"><img style='border:1px solid #0000ff' src="images/intro.jpeg"></a>
+<td><a href="https://www.youtube.com/watch?v=wC9QEUoCcuol"><img style="border:1px solid #0000ff" src="images/intro.jpeg"></a>
 <tr>
 <td><a href="https://www.youtube.com/watch?v=zCPwhTKDs6Q">CNCF OSCAL Compass End-to-End Demo</a><br>(15 mins)
-<td><a href="https://www.youtube.com/watch?v=zCPwhTKDs6Q"><img style='border:1px solid #0000ff' src="images/demo.jpeg"></a>
+<td><a href="https://www.youtube.com/watch?v=zCPwhTKDs6Q"><img style="border:1px solid #0000ff" src="images/demo.jpeg"></a>
 </table>
 
 -----
