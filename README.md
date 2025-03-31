@@ -74,9 +74,9 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 -----
 -----
 
-## Demos CNCF OSCAL Compass
+## Demo CNCF OSCAL Compass
 
-### Demo 1 - CNCF OSCAL Compass: Agile Authoring
+### Demo Part 1 - CNCF OSCAL Compass: Agile Authoring
 
 #### Why agile authoring?
 <img width="1127" alt="image" src="https://github.com/user-attachments/assets/cb91de1f-255d-442f-8e4a-e4fd2aeae815" />
@@ -103,7 +103,7 @@ There are couple of ways you can leverage agile authoring:
 4. You can then modify/add/delete compliance artifacts and see the cascade updates according to the agile authoring workflow
 5. The cascade will be in form of git branches and PRs according to the agile authoring workflows
 
-### Demo 2 - CNCF OSCAL Compass: automated compliance posture
+### Demo Part 2 - CNCF OSCAL Compass: automated compliance posture
 
 This demo shows how OSCAL Compass can be used for compliance posture automation. The compliance posture for a subject VM is computed and displayed.
 
