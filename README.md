@@ -60,6 +60,29 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 -----
 -----
 
+## Slides
+
+<table border="0">
+<tr align="center">
+<td>
+  <a href="images/oscal-compass-End-to-End-final.pdf">
+  <img src="images/oscal-compass-End-to-End-final.png" width="200">
+  </a>
+<td>
+  <a href="images/oscal-compass-End-to-End-final.pptx">
+  <img src="images/oscal-compass-End-to-End-final.png" width="200">
+  </a>
+<tr align="center">
+<td>
+  <a href="images/oscal-compass-End-to-End-final.pdf">
+  End-to-end demo (pdf)
+  </a>
+<td>
+  <a href="images/oscal-compass-End-to-End-final.pptx">
+  End-to-end demo (pptx)
+  </a>
+</table>
+
 ## Videos CNCF OSCAL Compass
 
 <table border="0">
