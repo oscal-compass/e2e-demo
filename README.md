@@ -30,7 +30,7 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 
 - Comprises 2 parts: 
     - Ubuntu software component definition
-    - OSCO validation component definition
+    - OpenSCAP validation component definition
 
 ##### System Security Plan
 
