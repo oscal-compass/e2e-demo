@@ -92,6 +92,9 @@ Note: In some cases, the OSCAL format of a catalog is not available. In such cir
 <tr>
 <td><a href="https://www.youtube.com/watch?v=zCPwhTKDs6Q">CNCF OSCAL Compass End-to-End Demo</a><br>(15 mins)
 <td><a href="https://www.youtube.com/watch?v=zCPwhTKDs6Q"><img style="border:1px solid #0000ff" src="images/demo.jpeg"></a>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=pk3EsgA4EBQ">OSCAL Compass E2E Demo: Agentic Agile Authoring + Compliance-to-Policy</a><br>(11 mins)
+<td><a href="https://www.youtube.com/watch?v=pk3EsgA4EBQ"><img style="border:1px solid #0000ff" src="images/demo-agentic-agile-authoring-c2p-plus.jpeg"></a>
 </table>
 
 -----
